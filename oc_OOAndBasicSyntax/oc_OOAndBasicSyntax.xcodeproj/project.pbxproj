@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0DF85D1735F4B2001CF1CB /* Chapter_02_01_introduction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF85C1735F4B2001CF1CB /* Chapter_02_01_introduction.m */; };
+		3B0DF86317360C9B001CF1CB /* Chapter_03_Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF86217360C9B001CF1CB /* Chapter_03_Fraction.m */; };
+		3B0DF86717364F3A001CF1CB /* Chapter04_DataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF86617364F3A001CF1CB /* Chapter04_DataTypes.m */; };
+		3B0DF86A173653C0001CF1CB /* Chapter04_Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF869173653C0001CF1CB /* Chapter04_Calculator.m */; };
+		3B0DF86E17366DD9001CF1CB /* Chapter_05_Looping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF86D17366DD9001CF1CB /* Chapter_05_Looping.m */; };
+		3B0DF87217368917001CF1CB /* Chapter06_MakingDecisions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0DF87117368917001CF1CB /* Chapter06_MakingDecisions.m */; };
+		3B3A928B177E430600BA2CA0 /* Square_New.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A928A177E430600BA2CA0 /* Square_New.m */; };
+		3B3A928F177EC9D000BA2CA0 /* Chapter12_Proprocess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A928E177EC9D000BA2CA0 /* Chapter12_Proprocess.m */; };
+		3B3A9292177ECBB500BA2CA0 /* LeapYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A9291177ECBB500BA2CA0 /* LeapYear.m */; };
+		3B3A9298177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A9297177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m */; };
+		3B3C9838176DB13800179596 /* Chapter09_Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C9837176DB13800179596 /* Chapter09_Complex.m */; };
+		3B3C983B176DB2E700179596 /* Chapter09_Ploymorphism.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C983A176DB2E700179596 /* Chapter09_Ploymorphism.m */; };
+		3BA4CE891735F00600C4AEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA4CE881735F00600C4AEF8 /* Foundation.framework */; };
+		3BA4CE8C1735F00600C4AEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CE8B1735F00600C4AEF8 /* main.m */; };
+		3BA4CE901735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BA4CE8F1735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 */; };
+		3BA817B3177B353300285C05 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA817B2177B353300285C05 /* Fraction.m */; };
+		3BA817B9177B3ADB00285C05 /* Chapter11_category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA817B8177B3ADB00285C05 /* Chapter11_category.m */; };
+		3BA817BC177B3E1500285C05 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA817BB177B3E1500285C05 /* Fraction+MathOps.m */; };
+		3BB96F781770A4ED0076E18D /* Chapter10_DataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB96F771770A4ED0076E18D /* Chapter10_DataTypes.m */; };
+		3BBCCC8F177FEC920049ACE8 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCCC8E177FEC920049ACE8 /* AddressCard.m */; };
+		3BBCCC92178019840049ACE8 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCCC91178019830049ACE8 /* AddressBook.m */; };
+		3BD3F3D7176BEAFB00A45293 /* Chapter06_Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3D6176BEAFB00A45293 /* Chapter06_Caculator.m */; };
+		3BD3F3DB176C068D00A45293 /* Chapter07_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3DA176C068D00A45293 /* Chapter07_Class.m */; };
+		3BD3F3DE176C06D300A45293 /* Chapter07_Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3DD176C06D300A45293 /* Chapter07_Fraction.m */; };
+		3BD3F3E1176C0AA700A45293 /* Chapter07_Fraction_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3E0176C0AA700A45293 /* Chapter07_Fraction_02.m */; };
+		3BD3F3E4176C0D5E00A45293 /* Chapter07_Fraction03.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3E3176C0D5E00A45293 /* Chapter07_Fraction03.m */; };
+		3BD3F3E7176C102E00A45293 /* Chapter07_Fraction_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3E6176C102E00A45293 /* Chapter07_Fraction_04.m */; };
+		3BD3F3EB176C50D500A45293 /* Chapter08_Inheritance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3EA176C50D500A45293 /* Chapter08_Inheritance.m */; };
+		3BD3F3EE176C514900A45293 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3ED176C514900A45293 /* ClassA.m */; };
+		3BD3F3F1176C566000A45293 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3F0176C566000A45293 /* Rectangle.m */; };
+		3BD3F3F4176C58B600A45293 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3F3F3176C58B600A45293 /* Square.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA4CE831735F00600C4AEF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3BA4CE901735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B0DF85C1735F4B2001CF1CB /* Chapter_02_01_introduction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter_02_01_introduction.m; sourceTree = "<group>"; };
+		3B0DF85F1735F833001CF1CB /* Chapter_02_01_introduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter_02_01_introduction.h; sourceTree = "<group>"; };
+		3B0DF86117360C9B001CF1CB /* Chapter_03_Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter_03_Fraction.h; sourceTree = "<group>"; };
+		3B0DF86217360C9B001CF1CB /* Chapter_03_Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter_03_Fraction.m; sourceTree = "<group>"; };
+		3B0DF86517364F3A001CF1CB /* Chapter04_DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter04_DataTypes.h; sourceTree = "<group>"; };
+		3B0DF86617364F3A001CF1CB /* Chapter04_DataTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter04_DataTypes.m; sourceTree = "<group>"; };
+		3B0DF868173653C0001CF1CB /* Chapter04_Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter04_Calculator.h; sourceTree = "<group>"; };
+		3B0DF869173653C0001CF1CB /* Chapter04_Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter04_Calculator.m; sourceTree = "<group>"; };
+		3B0DF86C17366DD9001CF1CB /* Chapter_05_Looping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter_05_Looping.h; sourceTree = "<group>"; };
+		3B0DF86D17366DD9001CF1CB /* Chapter_05_Looping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter_05_Looping.m; sourceTree = "<group>"; };
+		3B0DF87017368917001CF1CB /* Chapter06_MakingDecisions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter06_MakingDecisions.h; sourceTree = "<group>"; };
+		3B0DF87117368917001CF1CB /* Chapter06_MakingDecisions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter06_MakingDecisions.m; sourceTree = "<group>"; };
+		3B3A9289177E430600BA2CA0 /* Square_New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square_New.h; sourceTree = "<group>"; };
+		3B3A928A177E430600BA2CA0 /* Square_New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square_New.m; sourceTree = "<group>"; };
+		3B3A928D177EC9D000BA2CA0 /* Chapter12_Proprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter12_Proprocess.h; sourceTree = "<group>"; };
+		3B3A928E177EC9D000BA2CA0 /* Chapter12_Proprocess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter12_Proprocess.m; sourceTree = "<group>"; };
+		3B3A9290177ECBB500BA2CA0 /* LeapYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapYear.h; sourceTree = "<group>"; };
+		3B3A9291177ECBB500BA2CA0 /* LeapYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeapYear.m; sourceTree = "<group>"; };
+		3B3A9296177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter15_Num_Str_Collections.h; sourceTree = "<group>"; };
+		3B3A9297177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter15_Num_Str_Collections.m; sourceTree = "<group>"; };
+		3B3C9836176DB13800179596 /* Chapter09_Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter09_Complex.h; sourceTree = "<group>"; };
+		3B3C9837176DB13800179596 /* Chapter09_Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter09_Complex.m; sourceTree = "<group>"; };
+		3B3C9839176DB2E700179596 /* Chapter09_Ploymorphism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter09_Ploymorphism.h; sourceTree = "<group>"; };
+		3B3C983A176DB2E700179596 /* Chapter09_Ploymorphism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter09_Ploymorphism.m; sourceTree = "<group>"; };
+		3BA4CE851735F00600C4AEF8 /* oc_OOAndBasicSyntax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_OOAndBasicSyntax; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA4CE881735F00600C4AEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BA4CE8B1735F00600C4AEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA4CE8E1735F00600C4AEF8 /* oc_OOAndBasicSyntax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oc_OOAndBasicSyntax-Prefix.pch"; sourceTree = "<group>"; };
+		3BA4CE8F1735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = oc_OOAndBasicSyntax.1; sourceTree = "<group>"; };
+		3BA817B1177B353300285C05 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		3BA817B2177B353300285C05 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		3BA817B7177B3ADB00285C05 /* Chapter11_category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter11_category.h; sourceTree = "<group>"; };
+		3BA817B8177B3ADB00285C05 /* Chapter11_category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter11_category.m; sourceTree = "<group>"; };
+		3BA817BA177B3E1500285C05 /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
+		3BA817BB177B3E1500285C05 /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
+		3BB96F761770A4ED0076E18D /* Chapter10_DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter10_DataTypes.h; sourceTree = "<group>"; };
+		3BB96F771770A4ED0076E18D /* Chapter10_DataTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter10_DataTypes.m; sourceTree = "<group>"; };
+		3BBCCC8D177FEC920049ACE8 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
+		3BBCCC8E177FEC920049ACE8 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
+		3BBCCC90178019830049ACE8 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		3BBCCC91178019830049ACE8 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		3BD3F3D5176BEAFB00A45293 /* Chapter06_Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter06_Caculator.h; sourceTree = "<group>"; };
+		3BD3F3D6176BEAFB00A45293 /* Chapter06_Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter06_Caculator.m; sourceTree = "<group>"; };
+		3BD3F3D9176C068D00A45293 /* Chapter07_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter07_Class.h; sourceTree = "<group>"; };
+		3BD3F3DA176C068D00A45293 /* Chapter07_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter07_Class.m; sourceTree = "<group>"; };
+		3BD3F3DC176C06D300A45293 /* Chapter07_Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter07_Fraction.h; sourceTree = "<group>"; };
+		3BD3F3DD176C06D300A45293 /* Chapter07_Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter07_Fraction.m; sourceTree = "<group>"; };
+		3BD3F3DF176C0AA700A45293 /* Chapter07_Fraction_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter07_Fraction_02.h; sourceTree = "<group>"; };
+		3BD3F3E0176C0AA700A45293 /* Chapter07_Fraction_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter07_Fraction_02.m; sourceTree = "<group>"; };
+		3BD3F3E2176C0D5E00A45293 /* Chapter07_Fraction03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter07_Fraction03.h; sourceTree = "<group>"; };
+		3BD3F3E3176C0D5E00A45293 /* Chapter07_Fraction03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter07_Fraction03.m; sourceTree = "<group>"; };
+		3BD3F3E5176C102E00A45293 /* Chapter07_Fraction_04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter07_Fraction_04.h; sourceTree = "<group>"; };
+		3BD3F3E6176C102E00A45293 /* Chapter07_Fraction_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter07_Fraction_04.m; sourceTree = "<group>"; };
+		3BD3F3E9176C50D500A45293 /* Chapter08_Inheritance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter08_Inheritance.h; sourceTree = "<group>"; };
+		3BD3F3EA176C50D500A45293 /* Chapter08_Inheritance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter08_Inheritance.m; sourceTree = "<group>"; };
+		3BD3F3EC176C514900A45293 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		3BD3F3ED176C514900A45293 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; tabWidth = 3; };
+		3BD3F3EF176C566000A45293 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		3BD3F3F0176C566000A45293 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		3BD3F3F2176C58B600A45293 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		3BD3F3F3176C58B600A45293 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA4CE821735F00600C4AEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4CE891735F00600C4AEF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0DF85A1735F2B9001CF1CB /* chapter_02_introduction */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DF85C1735F4B2001CF1CB /* Chapter_02_01_introduction.m */,
+				3B0DF85F1735F833001CF1CB /* Chapter_02_01_introduction.h */,
+			);
+			name = chapter_02_introduction;
+			path = chapter_02;
+			sourceTree = "<group>";
+		};
+		3B0DF860173605F3001CF1CB /* chapter_03_classes_objects_methods */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DF86117360C9B001CF1CB /* Chapter_03_Fraction.h */,
+				3B0DF86217360C9B001CF1CB /* Chapter_03_Fraction.m */,
+			);
+			name = chapter_03_classes_objects_methods;
+			path = chapter_03;
+			sourceTree = "<group>";
+		};
+		3B0DF86417364EB0001CF1CB /* chapter_04_datatypes_expressinos */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DF86517364F3A001CF1CB /* Chapter04_DataTypes.h */,
+				3B0DF86617364F3A001CF1CB /* Chapter04_DataTypes.m */,
+				3B0DF868173653C0001CF1CB /* Chapter04_Calculator.h */,
+				3B0DF869173653C0001CF1CB /* Chapter04_Calculator.m */,
+			);
+			name = chapter_04_datatypes_expressinos;
+			path = chapter_04;
+			sourceTree = "<group>";
+		};
+		3B0DF86B17366CE1001CF1CB /* chapter_05_looping */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DF86C17366DD9001CF1CB /* Chapter_05_Looping.h */,
+				3B0DF86D17366DD9001CF1CB /* Chapter_05_Looping.m */,
+			);
+			name = chapter_05_looping;
+			path = chapter_05;
+			sourceTree = "<group>";
+		};
+		3B0DF86F173688D2001CF1CB /* chapter_06_makedecisions */ = {
+			isa = PBXGroup;
+			children = (
+				3B0DF87017368917001CF1CB /* Chapter06_MakingDecisions.h */,
+				3B0DF87117368917001CF1CB /* Chapter06_MakingDecisions.m */,
+				3BD3F3D5176BEAFB00A45293 /* Chapter06_Caculator.h */,
+				3BD3F3D6176BEAFB00A45293 /* Chapter06_Caculator.m */,
+			);
+			name = chapter_06_makedecisions;
+			path = chapter_06;
+			sourceTree = "<group>";
+		};
+		3B3A928C177EC82500BA2CA0 /* chapter_12_preprocess */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A928D177EC9D000BA2CA0 /* Chapter12_Proprocess.h */,
+				3B3A928E177EC9D000BA2CA0 /* Chapter12_Proprocess.m */,
+				3B3A9290177ECBB500BA2CA0 /* LeapYear.h */,
+				3B3A9291177ECBB500BA2CA0 /* LeapYear.m */,
+			);
+			name = chapter_12_preprocess;
+			path = chapter_12;
+			sourceTree = "<group>";
+		};
+		3B3A9293177ED95B00BA2CA0 /* chapter_13 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_13;
+			sourceTree = "<group>";
+		};
+		3B3A9294177ED97B00BA2CA0 /* chapter_14 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_14;
+			sourceTree = "<group>";
+		};
+		3B3A9295177EDCE100BA2CA0 /* chapter_15 */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A9296177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.h */,
+				3B3A9297177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m */,
+				3BBCCC8D177FEC920049ACE8 /* AddressCard.h */,
+				3BBCCC8E177FEC920049ACE8 /* AddressCard.m */,
+				3BBCCC90178019830049ACE8 /* AddressBook.h */,
+				3BBCCC91178019830049ACE8 /* AddressBook.m */,
+			);
+			path = chapter_15;
+			sourceTree = "<group>";
+		};
+		3B3C9835176DAC6400179596 /* chapter_09_Ploymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				3B3C9839176DB2E700179596 /* Chapter09_Ploymorphism.h */,
+				3B3C983A176DB2E700179596 /* Chapter09_Ploymorphism.m */,
+				3B3C9836176DB13800179596 /* Chapter09_Complex.h */,
+				3B3C9837176DB13800179596 /* Chapter09_Complex.m */,
+			);
+			name = chapter_09_Ploymorphism;
+			path = chapter_09;
+			sourceTree = "<group>";
+		};
+		3BA4CE7C1735F00600C4AEF8 = {
+			isa = PBXGroup;
+			children = (
+				3B3A9295177EDCE100BA2CA0 /* chapter_15 */,
+				3B3A9294177ED97B00BA2CA0 /* chapter_14 */,
+				3B3A9293177ED95B00BA2CA0 /* chapter_13 */,
+				3B3A928C177EC82500BA2CA0 /* chapter_12_preprocess */,
+				3BECB4A51773D8A4007634CD /* chapter_11_Category */,
+				3BB96F751770A23C0076E18D /* chapter_10_DataTypes */,
+				3B3C9835176DAC6400179596 /* chapter_09_Ploymorphism */,
+				3BD3F3E8176C4E8F00A45293 /* chapter_08_Inheritance */,
+				3BD3F3D8176C066A00A45293 /* chapter_07_Classes */,
+				3B0DF86F173688D2001CF1CB /* chapter_06_makedecisions */,
+				3B0DF86B17366CE1001CF1CB /* chapter_05_looping */,
+				3B0DF86417364EB0001CF1CB /* chapter_04_datatypes_expressinos */,
+				3B0DF860173605F3001CF1CB /* chapter_03_classes_objects_methods */,
+				3B0DF85A1735F2B9001CF1CB /* chapter_02_introduction */,
+				3BA4CE8A1735F00600C4AEF8 /* oc_OOAndBasicSyntax */,
+				3BA4CE871735F00600C4AEF8 /* Frameworks */,
+				3BA4CE861735F00600C4AEF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA4CE861735F00600C4AEF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4CE851735F00600C4AEF8 /* oc_OOAndBasicSyntax */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA4CE871735F00600C4AEF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4CE881735F00600C4AEF8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BA4CE8A1735F00600C4AEF8 /* oc_OOAndBasicSyntax */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4CE8B1735F00600C4AEF8 /* main.m */,
+				3BA4CE8F1735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 */,
+				3BA4CE8D1735F00600C4AEF8 /* Supporting Files */,
+			);
+			path = oc_OOAndBasicSyntax;
+			sourceTree = "<group>";
+		};
+		3BA4CE8D1735F00600C4AEF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4CE8E1735F00600C4AEF8 /* oc_OOAndBasicSyntax-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB96F751770A23C0076E18D /* chapter_10_DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				3BB96F761770A4ED0076E18D /* Chapter10_DataTypes.h */,
+				3BB96F771770A4ED0076E18D /* Chapter10_DataTypes.m */,
+			);
+			name = chapter_10_DataTypes;
+			path = chapter_10;
+			sourceTree = "<group>";
+		};
+		3BD3F3D8176C066A00A45293 /* chapter_07_Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BD3F3D9176C068D00A45293 /* Chapter07_Class.h */,
+				3BD3F3DA176C068D00A45293 /* Chapter07_Class.m */,
+				3BD3F3DC176C06D300A45293 /* Chapter07_Fraction.h */,
+				3BD3F3DD176C06D300A45293 /* Chapter07_Fraction.m */,
+				3BD3F3DF176C0AA700A45293 /* Chapter07_Fraction_02.h */,
+				3BD3F3E0176C0AA700A45293 /* Chapter07_Fraction_02.m */,
+				3BD3F3E2176C0D5E00A45293 /* Chapter07_Fraction03.h */,
+				3BD3F3E3176C0D5E00A45293 /* Chapter07_Fraction03.m */,
+				3BD3F3E5176C102E00A45293 /* Chapter07_Fraction_04.h */,
+				3BD3F3E6176C102E00A45293 /* Chapter07_Fraction_04.m */,
+			);
+			name = chapter_07_Classes;
+			path = chapter_07;
+			sourceTree = "<group>";
+		};
+		3BD3F3E8176C4E8F00A45293 /* chapter_08_Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				3BD3F3E9176C50D500A45293 /* Chapter08_Inheritance.h */,
+				3BD3F3EA176C50D500A45293 /* Chapter08_Inheritance.m */,
+				3BD3F3EC176C514900A45293 /* ClassA.h */,
+				3BD3F3ED176C514900A45293 /* ClassA.m */,
+				3BD3F3EF176C566000A45293 /* Rectangle.h */,
+				3BD3F3F0176C566000A45293 /* Rectangle.m */,
+				3BD3F3F2176C58B600A45293 /* Square.h */,
+				3BD3F3F3176C58B600A45293 /* Square.m */,
+			);
+			name = chapter_08_Inheritance;
+			path = chapter_08;
+			sourceTree = "<group>";
+		};
+		3BECB4A51773D8A4007634CD /* chapter_11_Category */ = {
+			isa = PBXGroup;
+			children = (
+				3BA817B7177B3ADB00285C05 /* Chapter11_category.h */,
+				3BA817B8177B3ADB00285C05 /* Chapter11_category.m */,
+				3BA817B1177B353300285C05 /* Fraction.h */,
+				3BA817B2177B353300285C05 /* Fraction.m */,
+				3BA817BA177B3E1500285C05 /* Fraction+MathOps.h */,
+				3BA817BB177B3E1500285C05 /* Fraction+MathOps.m */,
+				3B3A9289177E430600BA2CA0 /* Square_New.h */,
+				3B3A928A177E430600BA2CA0 /* Square_New.m */,
+			);
+			name = chapter_11_Category;
+			path = chapter_11;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA4CE841735F00600C4AEF8 /* oc_OOAndBasicSyntax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA4CE931735F00600C4AEF8 /* Build configuration list for PBXNativeTarget "oc_OOAndBasicSyntax" */;
+			buildPhases = (
+				3BA4CE811735F00600C4AEF8 /* Sources */,
+				3BA4CE821735F00600C4AEF8 /* Frameworks */,
+				3BA4CE831735F00600C4AEF8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oc_OOAndBasicSyntax;
+			productName = oc_OOAndBasicSyntax;
+			productReference = 3BA4CE851735F00600C4AEF8 /* oc_OOAndBasicSyntax */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA4CE7D1735F00600C4AEF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "pan dabo";
+			};
+			buildConfigurationList = 3BA4CE801735F00600C4AEF8 /* Build configuration list for PBXProject "oc_OOAndBasicSyntax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BA4CE7C1735F00600C4AEF8;
+			productRefGroup = 3BA4CE861735F00600C4AEF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA4CE841735F00600C4AEF8 /* oc_OOAndBasicSyntax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA4CE811735F00600C4AEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA4CE8C1735F00600C4AEF8 /* main.m in Sources */,
+				3B0DF85D1735F4B2001CF1CB /* Chapter_02_01_introduction.m in Sources */,
+				3B0DF86317360C9B001CF1CB /* Chapter_03_Fraction.m in Sources */,
+				3B0DF86717364F3A001CF1CB /* Chapter04_DataTypes.m in Sources */,
+				3B0DF86A173653C0001CF1CB /* Chapter04_Calculator.m in Sources */,
+				3B0DF86E17366DD9001CF1CB /* Chapter_05_Looping.m in Sources */,
+				3B0DF87217368917001CF1CB /* Chapter06_MakingDecisions.m in Sources */,
+				3BD3F3D7176BEAFB00A45293 /* Chapter06_Caculator.m in Sources */,
+				3BD3F3DB176C068D00A45293 /* Chapter07_Class.m in Sources */,
+				3BD3F3DE176C06D300A45293 /* Chapter07_Fraction.m in Sources */,
+				3BD3F3E1176C0AA700A45293 /* Chapter07_Fraction_02.m in Sources */,
+				3BD3F3E4176C0D5E00A45293 /* Chapter07_Fraction03.m in Sources */,
+				3BD3F3E7176C102E00A45293 /* Chapter07_Fraction_04.m in Sources */,
+				3BD3F3EB176C50D500A45293 /* Chapter08_Inheritance.m in Sources */,
+				3BD3F3EE176C514900A45293 /* ClassA.m in Sources */,
+				3BD3F3F1176C566000A45293 /* Rectangle.m in Sources */,
+				3BD3F3F4176C58B600A45293 /* Square.m in Sources */,
+				3B3C9838176DB13800179596 /* Chapter09_Complex.m in Sources */,
+				3B3C983B176DB2E700179596 /* Chapter09_Ploymorphism.m in Sources */,
+				3BB96F781770A4ED0076E18D /* Chapter10_DataTypes.m in Sources */,
+				3BA817B3177B353300285C05 /* Fraction.m in Sources */,
+				3BA817B9177B3ADB00285C05 /* Chapter11_category.m in Sources */,
+				3BA817BC177B3E1500285C05 /* Fraction+MathOps.m in Sources */,
+				3B3A928B177E430600BA2CA0 /* Square_New.m in Sources */,
+				3B3A928F177EC9D000BA2CA0 /* Chapter12_Proprocess.m in Sources */,
+				3B3A9292177ECBB500BA2CA0 /* LeapYear.m in Sources */,
+				3B3A9298177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m in Sources */,
+				3BBCCC8F177FEC920049ACE8 /* AddressCard.m in Sources */,
+				3BBCCC92178019840049ACE8 /* AddressBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BA4CE911735F00600C4AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BA4CE921735F00600C4AEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				New_Setting = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BA4CE941735F00600C4AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oc_OOAndBasicSyntax/oc_OOAndBasicSyntax-Prefix.pch";
+				New_Setting1 = "";
+				"New_Setting1[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BA4CE951735F00600C4AEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oc_OOAndBasicSyntax/oc_OOAndBasicSyntax-Prefix.pch";
+				New_Setting1 = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA4CE801735F00600C4AEF8 /* Build configuration list for PBXProject "oc_OOAndBasicSyntax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4CE911735F00600C4AEF8 /* Debug */,
+				3BA4CE921735F00600C4AEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA4CE931735F00600C4AEF8 /* Build configuration list for PBXNativeTarget "oc_OOAndBasicSyntax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA4CE941735F00600C4AEF8 /* Debug */,
+				3BA4CE951735F00600C4AEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA4CE7D1735F00600C4AEF8 /* Project object */;
+}
