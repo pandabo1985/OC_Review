@@ -1,3 +1,3 @@
 OC_Review
 =========
-practice maek perfect, step by step!
+practice make perfect, step by step!
