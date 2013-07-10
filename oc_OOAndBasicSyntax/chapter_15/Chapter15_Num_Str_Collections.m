@@ -9,6 +9,7 @@
 #import "Chapter15_Num_Str_Collections.h"
 #import "AddressCard.h"
 #import "AddressBook.h"
+#import "NSSet+Printing.h"
 
 @implementation Chapter15_Num_Str_Collections
 
@@ -255,4 +256,87 @@
     [books list];
     NSLog(@"books entries %i",[books entries]);
 }
+
+-(void)chapter15_11
+{
+    NSMutableDictionary *glossary = [NSMutableDictionary dictionary];
+    [glossary setObject:@"A class defined so other classes can inherit from it" forKey:@"abstract class"];
+    [glossary setObject:@"To implement all the methods defined in a protocol" forKey:@"adopt"];
+    [glossary setObject:@"Storing an object for larter use" forKey:@"archiving"];
+    
+    NSLog(@"abstract class: %@",[glossary objectForKey:@"abstract class"]);
+    NSLog(@"adopt: %@",[glossary objectForKey:@"adopt"]);
+    NSLog(@"archiving: %@",[glossary objectForKey:@"archiving"]);
+    
+    
+}
+
+-(void) chapter15_12
+{
+    NSLog(@"===============");
+    NSDictionary *glossary = [NSDictionary dictionaryWithObjectsAndKeys:@"A class defined so other classes can inherit from it",
+                              @"abstract class",
+                              @"To implement all the methods defined in a protocol",
+                              @"adopt",
+                              @"Storing an object for larter use",
+                              @"archiving",
+                              nil];
+   for(NSString *key in glossary)
+       NSLog(@"%@: %@",key,[glossary objectForKey:key]);
+}
+
+
+#define INTOBJ(v) [NSNumber numberWithInteger: v]
+
+-(void) chapter15_13
+{
+    NSMutableSet *set1 = [NSMutableSet setWithObjects:INTOBJ(1), INTOBJ(3), INTOBJ(5),INTOBJ(10), nil];
+    NSMutableSet *set2 = [NSMutableSet setWithObjects:INTOBJ(-5),INTOBJ(100),INTOBJ(3),INTOBJ(5), nil];
+    NSSet *set3 = [NSSet setWithObjects:INTOBJ(12),INTOBJ(200),INTOBJ(3), nil];
+    
+    NSLog(@"set1: ");
+    [set1 print];
+    NSLog(@"set2: ");
+    [set2 print];
+    NSLog(@"set3: ");
+    [set3 print];
+    if ([set1 isEqual:set2] == YES) {
+        NSLog(@"set1 equals set2");
+    }else
+    {
+        NSLog(@"set1 is not equals set2");
+    }
+    
+    if ([set1 containsObject:INTOBJ(10)] == YES) {
+        NSLog(@"set1 contains 10");
+    }else
+    {
+        NSLog(@"set1 no contains 10");
+    }
+    
+    if ([set2 containsObject:INTOBJ(10)] == YES) {
+        NSLog(@"set2 contains 10");
+    }else
+    {
+        NSLog(@"set2 no contains 10");
+    }
+
+    [set1 addObject:INTOBJ(4)];
+    [set1 removeObject:INTOBJ(10)];
+    [set1 print];
+    
+    NSLog(@"=========");
+    [set1 print];
+    [set2 print];
+    [set1 intersectSet:set2];
+    [set1 print];
+    
+    NSLog(@"=========");
+    [set1 print];
+    [set3 print];
+    [set1 unionSet:set3];
+    [set1 print];
+    
+}
+
 @end

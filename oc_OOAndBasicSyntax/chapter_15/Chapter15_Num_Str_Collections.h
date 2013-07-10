@@ -22,6 +22,9 @@
 -(void) chapter15_09;
 
 -(void) chapter15_10;
+-(void) chapter15_11;
+-(void) chapter15_12;
+-(void) chapter15_13;
 
 
 @end

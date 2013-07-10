@@ -166,6 +166,9 @@ int main(int argc, const char * argv[])
         [nsc chapter15_08];
         [nsc chapter15_09];
         [nsc chapter15_10];
+        [nsc chapter15_11];
+        [nsc chapter15_12];
+        [nsc chapter15_13];
 
         
     }
