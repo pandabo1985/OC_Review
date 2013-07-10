@@ -19,7 +19,6 @@
 		3B3A9298177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A9297177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m */; };
 		3B3C9838176DB13800179596 /* Chapter09_Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C9837176DB13800179596 /* Chapter09_Complex.m */; };
 		3B3C983B176DB2E700179596 /* Chapter09_Ploymorphism.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C983A176DB2E700179596 /* Chapter09_Ploymorphism.m */; };
-		3B4E7F7C178DA56700731013 /* NSSet+Printing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E7F7B178DA56700731013 /* NSSet+Printing.m */; };
 		3BA4CE891735F00600C4AEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA4CE881735F00600C4AEF8 /* Foundation.framework */; };
 		3BA4CE8C1735F00600C4AEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4CE8B1735F00600C4AEF8 /* main.m */; };
 		3BA4CE901735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BA4CE8F1735F00600C4AEF8 /* oc_OOAndBasicSyntax.1 */; };
@@ -79,8 +78,6 @@
 		3B3C9837176DB13800179596 /* Chapter09_Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter09_Complex.m; sourceTree = "<group>"; };
 		3B3C9839176DB2E700179596 /* Chapter09_Ploymorphism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter09_Ploymorphism.h; sourceTree = "<group>"; };
 		3B3C983A176DB2E700179596 /* Chapter09_Ploymorphism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter09_Ploymorphism.m; sourceTree = "<group>"; };
-		3B4E7F7A178DA56700731013 /* NSSet+Printing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Printing.h"; sourceTree = "<group>"; };
-		3B4E7F7B178DA56700731013 /* NSSet+Printing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Printing.m"; sourceTree = "<group>"; };
 		3BA4CE851735F00600C4AEF8 /* oc_OOAndBasicSyntax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_OOAndBasicSyntax; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA4CE881735F00600C4AEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BA4CE8B1735F00600C4AEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -221,8 +218,6 @@
 				3BBCCC8E177FEC920049ACE8 /* AddressCard.m */,
 				3BBCCC90178019830049ACE8 /* AddressBook.h */,
 				3BBCCC91178019830049ACE8 /* AddressBook.m */,
-				3B4E7F7A178DA56700731013 /* NSSet+Printing.h */,
-				3B4E7F7B178DA56700731013 /* NSSet+Printing.m */,
 			);
 			path = chapter_15;
 			sourceTree = "<group>";
@@ -436,7 +431,6 @@
 				3B3A9298177EDE0A00BA2CA0 /* Chapter15_Num_Str_Collections.m in Sources */,
 				3BBCCC8F177FEC920049ACE8 /* AddressCard.m in Sources */,
 				3BBCCC92178019840049ACE8 /* AddressBook.m in Sources */,
-				3B4E7F7C178DA56700731013 /* NSSet+Printing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
