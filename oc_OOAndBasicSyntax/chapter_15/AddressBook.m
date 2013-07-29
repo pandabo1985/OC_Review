@@ -40,4 +40,19 @@
   }
 }
 
+//for chapter 19
+-(void)encodeWithCoder:(NSCoder *)encoder
+{
+    [encoder encodeObject:bookName forKey:@"AddressBookeBookName"];
+    [encoder encodeObject:book forKey:@"AddressBookBook"];
+}
+
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    bookName = [aDecoder decodeObjectForKey:@"AddressBookeBookName"];
+    book = [aDecoder decodeObjectForKey:@"AddressBookBook"];
+    
+    return self;
+}
+
 @end

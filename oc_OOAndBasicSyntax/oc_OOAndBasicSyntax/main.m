@@ -20,6 +20,10 @@
 #import "Chapter11_category.h"
 #import "Chapter12_Proprocess.h"
 #import "Chapter15_Num_Str_Collections.h"
+#import "Chapter16_ManagerFile.h"
+#import "Chapter18_Copy.h"
+#import "Chapter19_archive.h"
+
 
 
 int main(int argc, const char * argv[])
@@ -166,6 +170,38 @@ int main(int argc, const char * argv[])
         [nsc chapter15_08];
         [nsc chapter15_09];
         [nsc chapter15_10];
+        
+        /*
+         *OC 第十六章 使用文件      *
+         */
+        NSLog(@"***********第<%d>章**************\n\n",chapter++);
+        Chapter16_ManagerFile *mFile = [[ Chapter16_ManagerFile alloc] init];
+        [mFile chapter16_01];
+        [mFile Chapter16_02];
+        [mFile Chapter16_03];
+        [mFile Chapter16_04];
+        [mFile Chapter16_05];
+        [mFile chapter16_06];
+        [mFile chapter16_07];
+        [mFile chapter16_08];
+        
+        /*
+         *OC 第十八章 使用文件      *
+         */
+        NSLog(@"***********第<%d>章**************\n\n",chapter++);
+        Chapter18_Copy *copy = [[Chapter18_Copy alloc] init];
+        [copy chapter_01];
+        [copy chapter_02];
+        /*
+         *OC 第十九章 归档      *
+         */
+        NSLog(@"***********第<%d>章**************\n\n",chapter++);
+        Chapter19_archive  *archvie = [[Chapter19_archive alloc] init];
+        [archvie chapter19_01];
+        [archvie chapter19_02];
+        [archvie chapter19_03];
+//        [archvie chapter19_04];
+        [archvie chapter19_05];
 
         
     }

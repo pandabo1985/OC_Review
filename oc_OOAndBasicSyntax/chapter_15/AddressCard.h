@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AddressCard : NSObject
+@interface AddressCard : NSObject <NSCoding, NSCopying>
 
 -(void) setName: (NSString *) theName;
 -(void) setEmail: (NSString *) theEmail;
@@ -16,4 +16,10 @@
 -(NSString *)email;
 -(void)setName:(NSString *)theName andEmail:(NSString *)theEmail;
 -(void) print;
+
+//for chapter 19
+
+-(void)assingnName: (NSString *)theName andEmail:(NSString *)theEmail;
+
+
 @end

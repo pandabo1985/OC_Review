@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AddressCard.h"
 
-@interface AddressBook : NSObject
+@interface AddressBook : NSObject <NSCopying, NSCopying>
 
 @property(nonatomic,copy) NSString *bookName;
 @property(nonatomic, copy) NSMutableArray *book;

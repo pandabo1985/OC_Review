@@ -53,4 +53,21 @@
     email = [NSString stringWithString:theEmail];
 }
 
+
+//for chapter 19
+-(void)encodeWithCoder:(NSCoder *)encoder
+{
+    [encoder encodeObject:name forKey:@"AddressCardName"];
+    [encoder encodeObject:email forKey:@"AddressCardEmail"];
+}
+
+-(id)initWithCoder:(NSCoder *)aDecoder
+{
+    name = [aDecoder decodeObjectForKey:@"AddressCardName"];
+    email = [aDecoder decodeObjectForKey:@"AddressCardEmail"];
+
+    return self;
+}
+
+
 @end
